@@ -10,6 +10,8 @@ The `^` operator is the bitwise-XOR.
 
 Shifting is done with `<<` and `>>`, thus `7 << 2` would result in `11100`, so 28. Right shifting drops all the required bits, in effect ignoring any remainder. 
 
+As with other operators, we can combine with the `=` symbol - thus ` x |= 1` is equivalent to `x = x | 1`.
+
 These operations are summarised on [MSDN](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators).
 
 ## Tasks
